@@ -4,6 +4,8 @@
 
 Responsive web application that utilizes Tailwind CSS.
 - [Live Website]()
+- Lazy Loading
+- SEO
 
 ---
 
@@ -11,7 +13,7 @@ Responsive web application that utilizes Tailwind CSS.
 
 - [Visual Studio Code](https://code.visualstudio.com/) - IDE
 - [React.js](https://reactjs.org/docs/hello-world.html) - Front end
-- [HeroIcons]()
+- [HeroIcons](https://heroicons.com/)
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Flexbox & CSS Grid]()

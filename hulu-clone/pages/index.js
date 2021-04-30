@@ -22,7 +22,7 @@ export default function Home( { results } ) {
 export async function getServerSideProps(context) {
   //pull genre from url
   const genre = context.query.genre;
-  console.log(genre, "what is this?")
+
   //request to database
   const request = await fetch(
     `https://api.themoviedb.org/3${requests[genre]?.url || requests.fetchTrendingMovies.url}`
@@ -35,5 +35,3 @@ export async function getServerSideProps(context) {
       }
     }
 }
-
-//https://api.themoviedb.org/3 /discovery/movie?api_key=3c0fcb1078fa491f0e484d9bce020d97&with_genres=10770

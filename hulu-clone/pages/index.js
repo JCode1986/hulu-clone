@@ -4,7 +4,8 @@ import Nav from '../components/Nav'
 import Results from '../components/Results'
 import requests from '../utils/requests'
 
-export default function Home( {results} ) {
+export default function Home( { results } ) {
+  console.log(results)
   return (
     <div>
       <Head>
@@ -13,7 +14,7 @@ export default function Home( {results} ) {
       </Head>
       <Header />
       <Nav />
-      <Results result={results} />
+      <Results results={results} />
     </div>
   )
 }
@@ -28,6 +29,7 @@ export async function getServerSideProps(context) {
     `https://api.themoviedb.org/3${requests[genre]?.url || requests.fetchTrendingMovies.url}`)
     .then(res => res.json());
 
+    //ready for client side
     return {
       props: {
         results: request.results

@@ -20,6 +20,7 @@ Responsive web application that utilizes Tailwind CSS.
 - [REST API]()
 - [Hostinger]()
 - [SEO]()
+- [Tailwind scrollbar hide](https://www.npmjs.com/package/tailwind-scrollbar-hide)
 
 ---
 

@@ -7,7 +7,7 @@ function Nav() {
     return (
         <nav className="relative">
             {/* tailwind scrollbar hide installed */}
-           <div className="flex px-10 sm:px-20 text-2xl whitespace-nowrap space-x-10 sm:space-x-20 overflow-x-scroll scrollbar-hide">
+           <div className="flex px-10 sm:px-20 text-2xl whitespace-nowrap space-x-10 sm:space-x-20 overflow-x-scroll  scrollbar-hide">
                {/* loop through requests for title and url */}
                {Object.entries(requests).map(([key, { title, url }]) => (
                    <h2 key={key}

@@ -11,7 +11,7 @@ import HeaderItem from "./HeaderItem";
 
 export default function Header() {
     return (
-        <header className="flex flex-col sm:flex-row m-5 justify-between items-center">
+        <header className="flex flex-col sm:flex-row pt-5 justify-between items-center">
             <div className="flex flex-grow justify-evenly max-w-2xl">
                 <HeaderItem title='HOME' Icon={HomeIcon}/>
                 <HeaderItem title='TRENDING' Icon={LightningBoltIcon}/>
@@ -20,10 +20,7 @@ export default function Header() {
                 <HeaderItem title='SEARCH' Icon={SearchIcon}/>
                 <HeaderItem title='ACCOUNT' Icon={UserIcon}/>
             </div>
-            <Image src="https://links.papareact.com/ua6"
-                width={200}
-                height={100}
-            />
+            <h1 className="text-5xl font-black text-white tracking-wider mb-10 mr-7">Flix Box</h1>
         </header>
     )
 }

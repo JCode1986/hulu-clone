@@ -1,4 +1,3 @@
-//allowing images to be utilized
 module.exports = {
     async redirects() {
         return [
@@ -9,6 +8,7 @@ module.exports = {
           },
         ]
       },
+    //allowing images to be utilized
     images: {
         domains: ["links.papareact.com", "image.tmdb.org"],
     },
